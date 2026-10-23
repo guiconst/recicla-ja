@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "@fontsource-variable/bricolage-grotesque";
+
+@theme {
+  --font-sans: "Bricolage Grotesque Variable", system-ui, sans-serif;
+
+  --color-tinta: #13231c;
+  --color-fundo: #eef3ef;
+  --color-floresta: #0b3b2e;
+  --color-mata: #0e1f18;
+
+  /* Cores das lixeiras (padrão CONAMA) */
+  --color-papel: #2563c9;
+  --color-plastico: #d93030;
+  --color-vidro: #1f9d55;
+  --color-metal: #f4b400;
+}
+
+html, body, #root { min-height: 100%; }
+body { background: var(--color-fundo); -webkit-tap-highlight-color: transparent; }
